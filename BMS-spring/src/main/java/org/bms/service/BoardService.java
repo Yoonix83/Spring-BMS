@@ -1,0 +1,23 @@
+package org.bms.service;
+
+import java.util.List;
+
+import org.bms.domain.BoardVO;
+import org.bms.domain.Criteria;
+
+public interface BoardService {
+	
+	public void register(BoardVO board);
+	
+	public BoardVO get(long bno);
+	
+	public boolean modify(BoardVO board);
+	
+	public boolean remove(long bno);
+	
+	public List<BoardVO> getList(Criteria cri);
+	
+	public int getTotal(Criteria cri); 
+	
+	
+}
