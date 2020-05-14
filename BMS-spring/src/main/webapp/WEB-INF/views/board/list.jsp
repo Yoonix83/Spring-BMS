@@ -32,7 +32,8 @@
 				</thead>
 				
 				 <c:forEach items="${list}" var="board">
-					<tr>				
+					<tr>	
+						<td><c:out value="${board.bno }"/></td>			
 					    <td><a class='move' href='<c:out value="${board.bno}"/>' >
 						<c:out value="${board.title}" /></a></td>
 						<td><c:out value="${board.writer }" /></td>
