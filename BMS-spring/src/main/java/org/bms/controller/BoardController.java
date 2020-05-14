@@ -27,6 +27,7 @@ public class BoardController {
 	@GetMapping("/list") 
 	public void list(Criteria cri, Model model) {
 		
+		log.info("++++++++++++/list 호출");
 		model.addAttribute("list", service.getList(cri));
 		
 		int total = service.getTotal(cri); 
