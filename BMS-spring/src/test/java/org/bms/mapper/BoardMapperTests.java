@@ -1,4 +1,4 @@
-package org.zerock.mapper;
+package org.bms.mapper;
 
 import java.util.ArrayList;
 import java.util.List;

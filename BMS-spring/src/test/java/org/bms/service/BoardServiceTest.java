@@ -1,4 +1,4 @@
-package org.zerock.service;
+package org.bms.service;
 
 import static org.junit.Assert.assertNotNull;
 
